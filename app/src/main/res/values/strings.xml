@@ -2,7 +2,62 @@
     <string name="app_name">quiz-mobile-app</string>
     <string name="heading">My App Heading</string>
 
-    <!-- <string name="app_name">My App</string> -->
+    <!-- General Strings -->
+
+    <!-- Quiz Questions -->
+    <string-array name="quiz_questions">
+        <item>In what year did the United States host the FIFA World Cup for the first time?</item>
+        <item>Who won the FIFA World Cup in 2018?</item>
+        <item>Which country has won the most FIFA World Cups?</item>
+        <item>Who is the all-time top scorer in FIFA World Cup history?</item>
+        <item>Which country hosted the FIFA World Cup in 2014?</item>
+    </string-array>
+
+    <!-- Quiz Options -->
+    <string-array name="quiz_options_0">
+        <item>1986</item>
+        <item>1994</item>
+        <item>2002</item>
+        <item>2010</item>
+    </string-array>
+
+    <string-array name="quiz_options_1">
+        <item>Brazil</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Argentina</item>
+    </string-array>
+
+    <string-array name="quiz_options_2">
+        <item>Brazil</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Argentina</item>
+    </string-array>
+
+    <string-array name="quiz_options_3">
+        <item>Ronaldo (Brazil)</item>
+        <item>Miroslav Klose (Germany)</item>
+        <item>Pele (Brazil)</item>
+        <item>Messi (Argentina)</item>
+    </string-array>
+
+    <string-array name="quiz_options_4">
+        <item>Russia</item>
+        <item>Germany</item>
+        <item>Brazil</item>
+        <item>South Africa</item>
+    </string-array>
+
+    <!-- Correct Answers (Index-based) -->
+    <integer-array name="correct_answers">
+        <item>1</item> <!-- 1994 (Correct index for Q1) -->
+        <item>1</item> <!-- France (Correct index for Q2) -->
+        <item>0</item> <!-- Brazil (Correct index for Q3) -->
+        <item>1</item> <!-- Miroslav Klose (Correct index for Q4) -->
+        <item>2</item> <!-- Brazil (Correct index for Q5) -->
+    </integer-array>
+
 
     <!-- <string name="app_name">My App</string> -->
 </resources>

@@ -35,6 +35,14 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize"/>
 
+        <!-- 🔥 FIXED: Added QuizActivity -->
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Quizmobileapp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+
     </application>
 
 </manifest>

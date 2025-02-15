@@ -1,7 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/quizbg"
     android:padding="20dp">
 
@@ -24,42 +23,17 @@
         android:layout_marginTop="30dp"
         android:padding="20dp"
         android:background="@drawable/card_background"
-        android:text="Sample Question?"
         android:textSize="18sp"
         android:textStyle="bold"/>
 
-    <!-- Radio Group for Options -->
+    <!-- Radio Group for Dynamic Options -->
     <RadioGroup
         android:id="@+id/optionsGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/questionText"
-        android:layout_marginTop="20dp">
-
-        <RadioButton
-            android:id="@+id/option1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Option 1"/>
-
-        <RadioButton
-            android:id="@+id/option2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Option 2"/>
-
-        <RadioButton
-            android:id="@+id/option3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Option 3"/>
-
-        <RadioButton
-            android:id="@+id/option4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Option 4"/>
-    </RadioGroup>
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"/>
 
     <!-- Navigation Buttons -->
     <Button
@@ -68,14 +42,15 @@
         android:layout_height="wrap_content"
         android:text="Previous"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:enabled="false"/>
 
     <Button
         android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/optionsGroup"/>
+
 </RelativeLayout>
