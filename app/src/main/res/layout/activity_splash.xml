@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundcolor">
+
+    <RelativeLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/circle">
+
+        <!-- "QUIZ" Text -->
+        <TextView
+            android:id="@+id/textQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#023047"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-black"/>
+
+        <!-- "Khelo" Text Below "QUIZ" -->
+        <TextView
+            android:id="@+id/textKhelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textQuiz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Khelo"
+            android:textColor="#E09C49"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</LinearLayout>

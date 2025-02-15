@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor">
+
+    <!-- Logo Container (Position Adjusted Dynamically) -->
+    <RelativeLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/circle">
+
+        <!-- "QUIZ" Text -->
+        <TextView
+            android:id="@+id/textQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#023047"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-black"/>
+
+        <!-- "Khelo" Text Below "QUIZ" -->
+        <TextView
+            android:id="@+id/textKhelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textQuiz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Khelo"
+            android:textColor="#E09C49"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoContainer"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:text="Enter your name"
+        android:textSize="16sp"
+        android:textColor="@color/backgroundcolor1"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/nameLabel"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:hint="John Doe"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/nameInput"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Start"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

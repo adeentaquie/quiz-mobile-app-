@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="backgroundcolor">#6F9293</color>  <!-- Background color -->
+        <color name="text_quiz">#023047</color>  <!-- Dark green text for "QUIZ" -->
+        <color name="textkhelo">#E09C49</color>  <!-- Orange text for "Khelo" -->
+        <color name="circle_bg">#FFFFFF</color>  <!-- White background for the circle -->
+        <color name="squarelogo_bg">#FFFFFF</color>
+                                <color name="purple_500">#6200EE</color>
+                                <color name="purple_700">#3700B3</color>
+                                <color name="backgroundcolor1">#FFFFFF</color>
+    <color name="my_background_color">#F0F0F0</color>
+    <color name="my_app_background">#F0F0F0</color> <!-- Ensure this exists -->
+
+
+</resources>
