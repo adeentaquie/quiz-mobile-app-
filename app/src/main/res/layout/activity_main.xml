@@ -42,6 +42,10 @@
             android:textStyle="bold"/>
     </RelativeLayout>
 
+<<<<<<< HEAD
+=======
+    <!-- Enter Name Text -->
+>>>>>>> 0328631 (splash + Homepage + draft of quiz)
     <TextView
         android:id="@+id/nameLabel"
         android:layout_width="wrap_content"
@@ -54,6 +58,10 @@
         android:textColor="@color/backgroundcolor1"
         android:textStyle="bold"/>
 
+<<<<<<< HEAD
+=======
+    <!-- Name Input -->
+>>>>>>> 0328631 (splash + Homepage + draft of quiz)
     <EditText
         android:id="@+id/nameInput"
         android:layout_width="match_parent"
@@ -65,7 +73,15 @@
         android:padding="10dp"
         android:hint="John Doe"
         android:textSize="16sp"
+<<<<<<< HEAD
         android:textStyle="bold"/>
+=======
+        android:textStyle="bold"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:inputType="textPersonName"/>
+>>>>>>> 0328631 (splash + Homepage + draft of quiz)
 
     <!-- Start Button -->
     <Button
@@ -79,5 +95,9 @@
         android:text="Start"
         android:textSize="18sp"
         android:textStyle="bold"/>
+<<<<<<< HEAD
 
 </RelativeLayout>
+=======
+</RelativeLayout>
+>>>>>>> 0328631 (splash + Homepage + draft of quiz)

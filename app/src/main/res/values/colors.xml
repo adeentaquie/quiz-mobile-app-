@@ -8,6 +8,10 @@
                                 <color name="purple_500">#6200EE</color>
                                 <color name="purple_700">#3700B3</color>
                                 <color name="backgroundcolor1">#FFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="quizbg">#FFFFC5</color>
+>>>>>>> 0328631 (splash + Homepage + draft of quiz)
     <color name="my_background_color">#F0F0F0</color>
     <color name="my_app_background">#F0F0F0</color> <!-- Ensure this exists -->
 
